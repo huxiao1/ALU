@@ -1,0 +1,246 @@
+$date
+	Thu Dec 29 17:15:32 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module alu_t $end
+$var wire 9 ! y [8:0] $end
+$var parameter 32 " N $end
+$var reg 1 # clk $end
+$var reg 8 $ data1 [7:0] $end
+$var reg 8 % data2 [7:0] $end
+$var reg 1 & ena $end
+$var reg 2 ' opcode [1:0] $end
+$scope module m0 $end
+$var wire 1 # clk $end
+$var wire 8 ( data1 [7:0] $end
+$var wire 8 ) data2 [7:0] $end
+$var wire 1 & ena $end
+$var wire 2 * opcode [1:0] $end
+$var parameter 2 + ADD $end
+$var parameter 2 , COMPARE $end
+$var parameter 32 - N $end
+$var parameter 2 . SUB $end
+$var reg 9 / y [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 .
+b1000 -
+b10 ,
+b0 +
+b1000 "
+$end
+#0
+$dumpvars
+bx /
+bx *
+bx )
+bx (
+bx '
+x&
+bx %
+bx $
+x#
+bx !
+$end
+#10
+b0 %
+b0 )
+b0 $
+b0 (
+b0 '
+b0 *
+0&
+1#
+#15
+0#
+#20
+b0 !
+b0 /
+1#
+1&
+#25
+0#
+#30
+b1110 !
+b1110 /
+1#
+b110 %
+b110 )
+b1000 $
+b1000 (
+#35
+0#
+#40
+1#
+#45
+0#
+#50
+b10 !
+b10 /
+1#
+b1 '
+b1 *
+#55
+0#
+#60
+1#
+#65
+0#
+#70
+b1 !
+b1 /
+1#
+b10 '
+b10 *
+#75
+0#
+#80
+b11111110 !
+b11111110 /
+1#
+b0 '
+b0 *
+b1111111 %
+b1111111 )
+b1111111 $
+b1111111 (
+#85
+0#
+#90
+1#
+#95
+0#
+#100
+b0 !
+b0 /
+1#
+b1 '
+b1 *
+#105
+0#
+#110
+1#
+#115
+0#
+#120
+1#
+b10 '
+b10 *
+#125
+0#
+#130
+b100000000 !
+b100000000 /
+1#
+b0 '
+b0 *
+b10000000 %
+b10000000 )
+b10000000 $
+b10000000 (
+#135
+0#
+#140
+1#
+#145
+0#
+#150
+b0 !
+b0 /
+1#
+b1 '
+b1 *
+#155
+0#
+#160
+1#
+#165
+0#
+#170
+1#
+b10 '
+b10 *
+#175
+0#
+#180
+b111111111 !
+b111111111 /
+1#
+b0 '
+b0 *
+b110100 %
+b110100 )
+b11001011 $
+b11001011 (
+#185
+0#
+#190
+1#
+#195
+0#
+#200
+b110010111 !
+b110010111 /
+1#
+b1 '
+b1 *
+#205
+0#
+#210
+1#
+#215
+0#
+#220
+b10 !
+b10 /
+1#
+b10 '
+b10 *
+#225
+0#
+#230
+1#
+#235
+0#
+#240
+1#
+#245
+0#
+#250
+1#
+#255
+0#
+#260
+1#
+#265
+0#
+#270
+1#
+#275
+0#
+#280
+1#
+#285
+0#
+#290
+1#
+#295
+0#
+#300
+1#
+#305
+0#
+#310
+1#
+#315
+0#
+#320
+1#
